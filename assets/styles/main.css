@@ -25,21 +25,28 @@ html, body{
 	background: initial;
 }
 .navbar {
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, 1);
 }
 .hero-container {
-	background: url('../images/EB_3Bed Detached_V1.jpg') no-repeat;
-	background-size: cover; 
+	/*background: url('../images/EB_3Bed Detached_V1.jpg') no-repeat;*/
+	/*background-size: cover; */
 	-webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-.hero-container > .container {
+.hero-container > .container, .hero-cta {
 	position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 70%;
+  transform: translateY(-60%);
 	z-index: 2;
 	opacity: 1;
+}
+.hero-text {
+	font-size: 6rem;
+
+}
+.hero-cta > .btn {
+	font-size: 2.5rem;
 }
 .bottom-container {
 	background: #fff;
@@ -143,7 +150,7 @@ footer {
     animation-delay: 12s;
 }
 .cb-slideshow li:nth-child(4) span {
-    background-image: url('../images/EB_3Bed Bungalow.jpg');
+    background-image: url('../images/EB_3Bed Bungalow_V2.jpg');
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
