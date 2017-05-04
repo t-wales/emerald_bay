@@ -1,10 +1,14 @@
 html, body{
 	font-family: 'Poppins', sans-serif;
-	/*color: rgba(0, 0, 0, .6);*/
+	color: rgba(0, 0, 0, .6);
 }
 .title {
 	font-size: 5rem;
-	color: orange;
+	color: #f5e280;
+}
+.btn-primary {
+	background: #8f2f07;
+	border: none;
 }
 .pic-overlay {
 	opacity: 0.8;
@@ -18,16 +22,16 @@ html, body{
 	height: 100vh;
 }
 .nav a{
-	color: orange;
+	color: #8f2f07;
 }
 .nav>li>a:hover{
-	color: orange;
+	color: #f5e280;
 	background: initial;
 }
 .navbar {
-	background-color: rgba(255, 255, 255, .8);
+	background-color: rgba(255, 255, 255, 1);
 }
-.hero-container {
+.hero-container, .product-page {
 	/*background: url('../images/EB_3Bed Detached_V1.jpg') no-repeat;*/
 	/*background-size: cover; */
 	-webkit-transform-style: preserve-3d;
@@ -44,10 +48,37 @@ html, body{
 .hero-text {
 	font-size: 6rem;
 	font-weight: 700;
-	color: orange;
+	color: #f5e280;
 }
 .hero-cta > .btn {
 	font-size: 2.5rem;
+}
+#homes > section {
+	background: #f5e280;
+}
+.product img{
+	box-shadow:5px 5px 5px #ddd;
+}
+.product-title {
+	font-weight: 700;
+	font-size: 3rem;
+}
+.product .price {
+	font-size: 2rem;
+}
+.product {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.about-page{
+	background-image: url(../images/about-page-bg.png);
+	background-size: contain; 
+	height: 300px;
+	line-height: 2;
+	/*opacity: .5;*/
+}
+.about-page li {
+	font-weight: 500;
 }
 .bottom-container {
 	background: #fff;
@@ -58,6 +89,9 @@ footer {
     padding: 20px 0;
     background: #262626;
 		position: relative;
+}
+footer .nav a{
+	color: #f2f2f2;
 }
 .col-centered{
 	float: none;
@@ -75,10 +109,12 @@ footer {
 	font-size: 18px;
 }
 .fa-percent, .fa-home {
-	color: orange;
+	color: #8f2f07;
 	font-size: 4rem;
 }
-
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 /*slideshow css*/
 .cb-slideshow,
 .cb-slideshow:after {
@@ -143,7 +179,7 @@ footer {
     animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-    background-image: url('../images/EB_3Bed Detached_V1.jpg ');
+    background-image: url('../images/EB_3Bed Terrace_V2.jpg ');
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -159,7 +195,7 @@ footer {
     animation-delay: 18s;
 }
 .cb-slideshow li:nth-child(5) span {
-    background-image: url('../images/EB_3Bed Detached_V1.jpg');
+    background-image: url('../images/EB_3Bed Twin Duplex_v4.jpg');
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -167,7 +203,7 @@ footer {
     animation-delay: 24s;
 }
 .cb-slideshow li:nth-child(6) span {
-    background-image: url('../images/EB_3Bed Detached_V2.jpg');
+    background-image: url('../images/EB_3Bed Bungalow_V2.jpg');
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
