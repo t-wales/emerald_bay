@@ -1,6 +1,13 @@
 html, body{
-	font-family: 'Poppins', sans-serif;
+	font-family: raleway, sans-serif;
 	color: rgba(0, 0, 0, .6);
+}
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/Raleway-Regular.ttf);
+}
+.navbar-toggle span{
+	background-color: #8f2f07;
 }
 .title {
 	font-size: 5rem;
@@ -46,9 +53,10 @@ html, body{
 	opacity: 1;
 }
 .hero-text {
+	font-family: 'Great Vibes', cursive;
 	font-size: 6rem;
 	font-weight: 700;
-	color: #f5e280;
+	color: white;
 }
 .hero-cta > .btn {
 	font-size: 2.5rem;
