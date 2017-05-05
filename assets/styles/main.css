@@ -11,7 +11,7 @@ html, body{
 }
 .title {
 	font-size: 5rem;
-	color: #f5e280;
+	color: #b99b00;
 }
 .btn-primary {
 	background: #8f2f07;
@@ -32,7 +32,7 @@ html, body{
 	color: #8f2f07;
 }
 .nav>li>a:hover{
-	color: #f5e280;
+	color: #b99b00;
 	background: initial;
 }
 .navbar {
@@ -78,6 +78,9 @@ html, body{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.product-page p{
+	line-height: 1.8;
+}
 .about-page{
 	background-image: url(../images/about-page-bg.png);
 	background-size: contain; 
@@ -87,6 +90,9 @@ html, body{
 }
 .about-page li {
 	font-weight: 500;
+}
+.bank-details h4{
+	font-weight: 700;
 }
 .bottom-container {
 	background: #fff;
@@ -460,6 +466,13 @@ footer .nav a{
 @media screen and (max-width: 1140px) { 
 	.cb-slideshow li div h3 { font-size: 100px }
 }
+@media screen and (max-width: 768px) { 
+	.cb-slideshow li div h3 { font-size: 50px }
+	.dropdown:hover .dropdown-menu {
+		display: none;
+	}
+}
 @media screen and (max-width: 600px) { 
 	.cb-slideshow li div h3 { font-size: 50px }
+
 }
