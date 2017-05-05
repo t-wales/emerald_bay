@@ -17,6 +17,9 @@ html, body{
 	background: #8f2f07;
 	border: none;
 }
+.btn-primary:hover {
+	background: #b99b00;
+}
 .pic-overlay {
 	opacity: 0.8;
 	background-color: rgba(255, 255, 255, .8);
@@ -38,6 +41,9 @@ html, body{
 .navbar {
 	background-color: rgba(255, 255, 255, 1);
 }
+.navbar-nav {
+	text-align: center;
+}
 .hero-container, .product-page {
 	/*background: url('../images/EB_3Bed Detached_V1.jpg') no-repeat;*/
 	/*background-size: cover; */
@@ -58,7 +64,7 @@ html, body{
 	font-weight: 700;
 	color: white;
 }
-.hero-cta > .btn {
+.hero-cta  .btn {
 	font-size: 2.5rem;
 }
 #homes > section {
@@ -66,6 +72,9 @@ html, body{
 }
 .product img{
 	box-shadow:5px 5px 5px #ddd;
+}
+.product .col-md-4{
+	margin-bottom: 10px;
 }
 .product-title {
 	font-weight: 700;
@@ -77,6 +86,10 @@ html, body{
 .product {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	background: white;
+}
+.product-page {
+	overflow-x: hidden; 
 }
 .product-page p{
 	line-height: 1.8;
